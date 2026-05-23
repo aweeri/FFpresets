@@ -61,4 +61,4 @@ That's all you need~!
 
 ## Uninstallation
 
-If you ever need to remove it, run the `uninstall.bat` file as an administrator. The uninstaller cleanly wipes all associated registry keys, deletes the deployed script files from your system, and removes its own installation directory.
+If you ever need to remove it, run the `C:\ProgramData\FFpresets\uninstall.bat` file as an administrator. The uninstaller cleanly wipes all associated registry keys, deletes the deployed script files from your system, and removes its own installation directory.
