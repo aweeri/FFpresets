@@ -2,6 +2,11 @@
 
 An ULTRA-lightweight video conversion tool built directly into your Windows right-click context menu. The idea is simple - it lets you run ffmpeg commands that you most often need without having to mess with filenames and remembering the exact arguments.
 
+
+<img width="100%" alt="{68C5E2A8-E2E0-4A79-8841-796FFFB7A3A3}" src="https://github.com/user-attachments/assets/f9d0dc38-a93c-47c8-aeed-4404af54eaf2" />
+<img width="100%" alt="{27F4A20E-816A-4166-BD91-9611D5B8AB45}" src="https://github.com/user-attachments/assets/7402a803-4ac7-4259-b8d1-f1a7e4525324" />
+
+
 ---
 
 ## Features
@@ -16,9 +21,11 @@ An ULTRA-lightweight video conversion tool built directly into your Windows righ
 
 ## Installation
 
-1. Run`install.bat`.
-2. Accept the User Account Control (UAC) prompt to allow the registry changes.
-3. Once finished, you can delete the original downloaded folder.
+1. Download this repository in a `.zip` formfactor.
+2. Extract it anywhere.
+3. Run`install.bat`.
+4. Accept the User Account Control (UAC) prompt to allow the registry changes.
+5. Once finished, you can delete the original downloaded folder.
 
 *Note: If FFmpeg isn't detected on your system, the script will provide a quick winget command you can then run to get it installed.*
 
