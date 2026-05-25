@@ -4,7 +4,8 @@ An ULTRA-lightweight video conversion tool built directly into your Windows righ
 
 
 <img width="100%" alt="{68C5E2A8-E2E0-4A79-8841-796FFFB7A3A3}" src="https://github.com/user-attachments/assets/f9d0dc38-a93c-47c8-aeed-4404af54eaf2" />
-<img width="100%" alt="{27F4A20E-816A-4166-BD91-9611D5B8AB45}" src="https://github.com/user-attachments/assets/7402a803-4ac7-4259-b8d1-f1a7e4525324" />
+<img width="100%" alt="{AE30784A-2611-487A-8923-4DBC5272031A}" src="https://github.com/user-attachments/assets/e6143260-0cc2-433e-8c89-b6e296eb744f" />
+
 
 
 ---
