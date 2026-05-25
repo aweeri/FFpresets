@@ -41,22 +41,33 @@ An ULTRA-lightweight video conversion tool built directly into your Windows righ
 
 ---
 
-## Adding Your Own Presets
+## Adding Custom Presets
 
-You can easily expand or modify the preset list by editing the configuration area inside `ffpresets.bat` before you run the installer.
+You can customize the preset list by editing the variables inside `ffpresets.bat`.
 
-1. Open `C:\ProgramData\FFpresets\ffpresets.bat` in any text editor.
+### Add a Preset to an Existing Tab
+
+1. Open `C:\ProgramData\FFpresets\ffpresets.bat` in a text editor.
 2. Locate the `:: --- PRESET CONFIGURATION ---` section.
-3. Increment the `PRESET_COUNT` variable value by 1.
-4. Add your new variables at the bottom of the preset list using the next sequential number. For example, to add a sixth preset:
+3. Find your target tab category.
+4. Increase the tab's preset count by 1 (e.g., update `TAB_1_PRESET_COUNT=4` to `5`).
+5. Append your new variables at the bottom of that tab's section using the next sequential number.
 
+**Example (Adding a 5th preset to Tab 1):**
 ```bat
-set "PRESET_6_NAME=My Custom WebM Preset"
-set "PRESET_6_SUFFIX=_custom.webm"
-set "PRESET_6_ARGS=-c:v libvpx-vp9 -b:v 2M -c:a libopus"
+set "T1_P5_NAME=My Custom WebM Preset"
+set "T1_P5_SUFFIX=_custom.webm"
+set "T1_P5_ARGS=-c:v libvpx-vp9 -b:v 2M -c:a libopus"
 ```
 
-That's all you need~!
+---
+
+### Add a New Tab Category
+
+1. Locate the master `TAB_COUNT` variable at the top of the configuration section.
+2. Increase this master count by 1.
+3. Create a new tab block using the next sequential tab number for all variables (e.g., `TAB_7_NAME`, `TAB_7_PRESET_COUNT`).
+4. Define the individual presets for your new tab following the standard naming convention (e.g., `T7_P1_NAME`, `T7_P1_SUFFIX`, `T7_P1_ARGS`).
 
 ---
 
